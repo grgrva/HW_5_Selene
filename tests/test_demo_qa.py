@@ -33,7 +33,7 @@ def test_exp():
     browser.element("label.form-check-label[for=hobbies-checkbox-3]").click()
 
 # загрузка изображения
-    browser.element('#uploadPicture').send_keys(os.path.abspath('data/b2586f8eb5561542e587aded807478e8.jpg'))
+    browser.element('#uploadPicture').send_keys(os.path.abspath('b2586f8eb5561542e587aded807478e8.jpg'))
 
 # ввод адреса
 
